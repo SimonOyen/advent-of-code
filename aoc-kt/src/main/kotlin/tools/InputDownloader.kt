@@ -10,7 +10,7 @@ class InputDownloader(private val client: HttpClient = HttpClient()) {
     fun get(year: Int, day: Int): String {
         val file = File("input/$year/$day.txt")
         return when {
-            file.exists() -> file.readText()
+            file.exists() -> file.readText().replace("\r\n", "\n")
             else -> download(year, day).removeSuffix("\n")
                 .also {
                     file.write(it)
