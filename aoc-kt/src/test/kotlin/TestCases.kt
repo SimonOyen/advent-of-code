@@ -1,6 +1,8 @@
 import io.github.simonoyen.solutions.year2023.*
 import io.github.simonoyen.solutions.year2024.Day01HistorianHysteria
 import io.github.simonoyen.solutions.year2024.Day02RedNosedReports
+import io.github.simonoyen.solutions.year2024.Day03MullItOver
+import io.github.simonoyen.solutions.year2024.Day05PrintQueue
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.datatest.withData
 
@@ -27,6 +29,9 @@ class TestCases : FunSpec({
         withData(
             TestData(2024, 1, 11, 31, ::Day01HistorianHysteria),
             TestData(2024, 2, 2, 4, ::Day02RedNosedReports),
+            TestData(2024, 3, 161, 48, ::Day03MullItOver),
+            // TestData(2024, 4, 18, 9, ::Day04CeresSearch),
+            TestData(2024, 5, 143, 123, ::Day05PrintQueue),
         ) { test ->
             test.testPartA()
             test.testPartB()
