@@ -2,7 +2,7 @@ package io.github.simonoyen.solutions.year2023
 
 import io.github.simonoyen.tools.Day
 
-class Day02CubeConundrum : Day {
+object Day02CubeConundrum : Day {
     override fun partA(input: String): Number = createGames(input).filter {
         it.reds.max() <= 12 && it.greens.max() <= 13 && it.blues.max() <= 14
     }.sumOf { it.index }

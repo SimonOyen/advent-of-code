@@ -3,7 +3,7 @@ package io.github.simonoyen.solutions.year2024
 import io.github.simonoyen.tools.Day
 import kotlin.math.abs
 
-class Day02RedNosedReports : Day {
+object Day02RedNosedReports : Day {
     override fun partA(input: String): Number {
         val filtered = input.parseNumbers()
             .map { it.calculateChanges() }

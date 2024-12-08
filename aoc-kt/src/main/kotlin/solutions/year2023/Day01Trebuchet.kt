@@ -2,7 +2,7 @@ package io.github.simonoyen.solutions.year2023
 
 import io.github.simonoyen.tools.Day
 
-class Day01Trebuchet : Day {
+object Day01Trebuchet : Day {
     private val numberStrings = mapOf(
         "one" to 1,
         "two" to 2,

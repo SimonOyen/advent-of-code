@@ -5,7 +5,7 @@ import io.github.simonoyen.tools.Day
 import io.github.simonoyen.tools.parseNumbersToList
 
 // seed - soil - fertilizer - water - light - temperature - humidity - location
-class Day05IfYouGiveASeedAFertilizer : Day {
+object Day05IfYouGiveASeedAFertilizer : Day {
     enum class Categories {
         SEED,
         SOIL,

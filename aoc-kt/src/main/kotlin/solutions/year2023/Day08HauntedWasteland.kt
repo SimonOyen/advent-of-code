@@ -5,7 +5,7 @@ import io.github.simonoyen.solutions.year2023.Day08HauntedWasteland.Instruction.
 import io.github.simonoyen.tools.Day
 import kotlin.math.abs
 
-class Day08HauntedWasteland : Day {
+object Day08HauntedWasteland : Day {
 
     override fun partA(input: String): Number {
         val (instructions, map) = input.split("\n\n")

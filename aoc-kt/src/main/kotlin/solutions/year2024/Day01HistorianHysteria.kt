@@ -3,7 +3,7 @@ package io.github.simonoyen.solutions.year2024
 import io.github.simonoyen.tools.Day
 import kotlin.math.abs
 
-class Day01HistorianHysteria : Day {
+object Day01HistorianHysteria : Day {
     override fun partA(input: String): Number {
         val (firstColumn, secondColumn) = input.lines().getColumns()
 

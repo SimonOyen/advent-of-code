@@ -4,7 +4,7 @@ import io.github.simonoyen.solutions.year2023.Day10PipeMaze.Direction.*
 import io.github.simonoyen.tools.Day
 
 
-class Day10PipeMaze : Day {
+object Day10PipeMaze : Day {
 
     // | is a vertical pipe connecting north and south.
     // - is a horizontal pipe connecting east and west.
@@ -70,7 +70,7 @@ class Day10PipeMaze : Day {
                 }
             }
         }
-        
+
         TODO()
     }
 

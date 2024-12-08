@@ -5,7 +5,7 @@ import io.github.simonoyen.tools.parseNumbersToIntList
 import kotlin.math.min
 import kotlin.math.pow
 
-class Day04Scratchcards : Day {
+object Day04Scratchcards : Day {
     override fun partA(input: String): Number = input.lines().sumOf { 2.0.pow(numberOfWins(it) - 1).toInt() }
 
     override fun partB(input: String): Number {

@@ -2,7 +2,7 @@ package io.github.simonoyen.solutions.year2023
 
 import io.github.simonoyen.tools.Day
 
-class Day07CamelCards : Day {
+object Day07CamelCards : Day {
     override fun partA(input: String): Number {
         val hands = input.lines().map(Hand::fromInput)
         val handsByType = hands.groupBy { it.type }

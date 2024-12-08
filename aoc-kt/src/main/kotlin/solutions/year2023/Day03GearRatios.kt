@@ -4,7 +4,7 @@ import io.github.simonoyen.tools.Day
 import kotlin.math.max
 import kotlin.math.min
 
-class Day03GearRatios : Day {
+object Day03GearRatios : Day {
     override fun partA(input: String): Number {
         val lines = input.lines()
         val padded = pad(lines)

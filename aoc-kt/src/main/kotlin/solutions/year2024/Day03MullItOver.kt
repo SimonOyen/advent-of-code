@@ -2,7 +2,7 @@ package io.github.simonoyen.solutions.year2024
 
 import io.github.simonoyen.tools.Day
 
-class Day03MullItOver : Day {
+object Day03MullItOver : Day {
     override fun partA(input: String): Number {
         val regex = Regex("mul\\(\\d{1,3},\\d{1,3}\\)")
 

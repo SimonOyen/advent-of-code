@@ -3,7 +3,7 @@ package io.github.simonoyen.solutions.year2023
 import io.github.simonoyen.tools.Day
 import io.github.simonoyen.tools.parseNumbersToIntList
 
-class Day09MirageMaintenance : Day {
+object Day09MirageMaintenance : Day {
 
     override fun partA(input: String): Number {
         val lines = input.lines()

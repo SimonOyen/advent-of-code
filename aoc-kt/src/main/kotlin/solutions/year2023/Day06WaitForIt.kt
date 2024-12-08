@@ -2,7 +2,7 @@ package io.github.simonoyen.solutions.year2023
 
 import io.github.simonoyen.tools.Day
 
-class Day06WaitForIt : Day {
+object Day06WaitForIt : Day {
     override fun partA(input: String): Number {
         val (times, distances) = input.lines()
             .map { Regex("\\d+").findAll(it).map { r -> r.value.toLong() }.toList() }
