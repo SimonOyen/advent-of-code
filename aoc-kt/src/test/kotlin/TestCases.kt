@@ -31,11 +31,17 @@ class TestCases : FunSpec({
             TestData(2024, 5, 143, 123, Day05PrintQueue),
             // TestData(2024, 6, 41, 6, ::Day06GuardGallivant), // Also too slow
             // TestData(2024, 7, 3749, 11387, Day07BridgeRepair), // Also too slow
-            TestData(2024, 8, 14, 11387, Day08ResonantCollinearity), // Also too slow
+            TestData(2024, 8, 14, 34, Day08ResonantCollinearity),
+            TestData(2024, 9, 1928, 34, Day09DiskFragmenter), // Also too slow
         ) { test ->
             test.testPartA()
             test.testPartB()
         }
+    }
+
+    context("Current Test") {
+        TestData(2024, 9, 1928, 2858, Day09DiskFragmenter)
+            .testPartB()
     }
 })
 
